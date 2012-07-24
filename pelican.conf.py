@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u"Mark Betnel"
-SITENAME = u"c-q-analysis"
-SITEURL = '/'
+SITENAME = u"Quantitative Analysis"
+SITEURL = 'http://markbetnel.com/qa1'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG='en'
 
 # Blogroll
 LINKS =  (
-    ('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-    ('Python.org', 'http://python.org'),
-    ('Jinja2', 'http://jinja.pocoo.org'),
+    ('dy/dan', 'http://blog.mrmeyer.com/'),
+    ('Math Mistakes', 'http://mathmistakes.org/'),
+    ('Khan Academy', 'http://www.khanacademy.org'),
     ('You can modify those links in your config file', '#')
          )
 

@@ -13,7 +13,7 @@ FTP_TARGET_DIR=/
 
 SSH_HOST=markbetnel.com
 SSH_USER=marbet15
-SSH_TARGET_DIR=markbetnel.com/crs2/
+SSH_TARGET_DIR=markbetnel.com/qa1/
 
 DROPBOX_DIR=~/Dropbox/Public/
 

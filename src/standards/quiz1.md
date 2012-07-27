@@ -4,8 +4,8 @@ tags: algebra, review, real numbers, factoring, fractions
 
 
  1. Factor the following:
-    	   $x^2 + 3x + 2$
+    	   \[ x^2 + 3x + 2\]
 
  2. Reduce the fraction to lowest terms:
-    	   $\frac{24}{30}$
+    	   \[ \frac {24}{30} \]
  

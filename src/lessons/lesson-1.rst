@@ -6,7 +6,7 @@ Lesson 1
 :tags: algebra, problem solving
 
 
-1. Everybody gets it wrong.  Being wrong is good.
+1. Monty Hall: Everybody gets it wrong.  Being wrong is good.
 
 2. What is math for?
 
@@ -18,7 +18,10 @@ Lesson 1
    d. final exam
    e. Figuring stuff out
 
-4. Algebra review
+4. Algebra review.  Quiz, group corrections.
 
-5. For next time: Homework 1.
+5. For next time: Homework1_.
+
+.. _Homework1: ../homework-1.html
+
    

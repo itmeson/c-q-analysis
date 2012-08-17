@@ -16,5 +16,5 @@ Homework 2
 3. Instructions:
   
    Prepare your HW on paper and turn it in at the beginning of class on the
-11th.
+   11th.
 

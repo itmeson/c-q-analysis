@@ -3,7 +3,7 @@ Homework 1
 
 :date: 2012-09-06
 :summary: A review assignment on algebraic operations
-:standards: algebra, order of operations
+:tags: algebra, order of operations, A.1
 
 1. From the book
 

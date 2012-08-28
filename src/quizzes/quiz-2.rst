@@ -4,7 +4,7 @@ Quiz 2
 :date: 2012-09-06 
 :category: quizzes
 :tags: A.2, A.4
-
+:status: draft
 
 1. Using the following graph, determine the slope and y-intercept of the
 function, then write an equation that gives the same line. 

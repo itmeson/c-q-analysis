@@ -11,16 +11,18 @@ DEFAULT_LANG='en'
 
 # Blogroll
 LINKS =  (
-    ('dy/dan', 'http://blog.mrmeyer.com/'),
-    ('Math Mistakes', 'http://mathmistakes.org/'),
+    ('Wolfram Alpha', 'http://www.wolframalpha.com/'),
     ('Khan Academy', 'http://www.khanacademy.org'),
-    ('You can modify those links in your config file', '#')
+    ('Math Fun Facts', 'http://www.math.hmc.edu/funfacts/'),
+    ('Google Finance', 'http://google.com/finance')
          )
 
 # Social widget
 SOCIAL = (
-          ('You can add links in your config file', '#'),
-         )
+         ('HomeworkFeed', SITEURL + '/feeds/homework.atom.xml'),
+         ('LessonsFeed', SITEURL + '/feeds/lessons.atom.xml'),
+	 ('QuizzesFeed', SITEURL + '/feeds/quizzes.atom.xml')
+	 )
 
 DEFAULT_PAGINATION = 7
 DISPLAY_PAGES_ON_MENU = False

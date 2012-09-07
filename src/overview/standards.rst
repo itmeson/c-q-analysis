@@ -8,12 +8,12 @@ Standards
 
 A. Linear models and algebra:
 
-   1. I can correctly manipulate algebraic expressions and equations
-   2. I can solve a linear equation
-   3. I can use a linear equation to model a real system
-   4. I can translate between graphical and functional expressions of a model
-   5. I can interpret features of a graph in relation to the system it models
-   6. I can identify the limitations of a linear model in relation to a real system
+   1. I can correctly manipulate algebraic expressions and equations ( A.1_ )
+   2. I can solve a linear equation ( A.2_ )
+   3. I can use a linear equation to model a real system ( A.3_ )
+   4. I can translate between graphical and functional expressions of a model ( A.4_ )
+   5. I can interpret features of a graph in relation to the system it models ( A.5_ )
+   6. I can identify the limitations of a linear model in relation to a real system ( A.6_ )
 
 B. Quadratic models:
 
@@ -57,4 +57,4 @@ E. Derivatives:
    35. I can solve real problems by using derivatives 
 
 
-
+.. include:: st_tags.rst

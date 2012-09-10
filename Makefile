@@ -18,11 +18,10 @@ help:
 	@echo 'Makefile for a pelican Web site                                       '
 	@echo '                                                                      '
 	@echo 'Usage:                                                                '
-	@echo '   make html                        (re)generate the web site         '
 	@echo '   make clean                       remove the generated files        '
-	@echo '   ftp_upload                       upload the web site using FTP     '
+	@echo '   make all                         html ssh_upload                   '
+	@echo '   make html                        (re)generate the web site         '
 	@echo '   ssh_upload                       upload the web site using SSH     '
-	@echo '   dropbox_upload                   upload the web site using Dropbox '
 	@echo '                                                                      '
 
 all: html ssh_upload

@@ -1,0 +1,20 @@
+Homework 6 
+##########
+
+:date: 2012-09-25
+:summary: 
+:tags: B.7, B.8, B.9, B.10, B.11, B.12
+
+1. From the book: 
+
+   Chapter 2 Review Exercises: 1, 3, 5, 17, 19, 21, 33, 35, 47 (sketch by hand and try to find a function that fits the data well), 49, 55
+
+(these are the correct problems in both the 9th and 10th editions of the book)
+
+
+2. Instructions:
+
+   Submit this assignment on paper at the beginning of class.
+
+
+

@@ -4,7 +4,6 @@ Quiz 3
 :date: 2012-09-18 
 :category: quizzes
 :tags: A.4, A.5, A.6
-:status: draft
 
 
 1. Write an equation that describes the line in the given graph.  Suppose the graph describes a company -- is the company profitable? 

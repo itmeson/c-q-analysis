@@ -14,8 +14,9 @@ LINKS =  (
     ('Wolfram Alpha', 'http://www.wolframalpha.com/'),
     ('Khan Academy', 'http://www.khanacademy.org'),
     ('Math Fun Facts', 'http://www.math.hmc.edu/funfacts/'),
-    ('Google Finance', 'http://google.com/finance')
-         )
+    ('Google Finance', 'http://google.com/finance'),
+    ('R - Statistics', 'http://cran.r-project.org')
+        )
 
 # Social widget
 SOCIAL = (

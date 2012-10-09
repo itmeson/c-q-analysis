@@ -1,0 +1,114 @@
+A.2, """Solve for x:
+
+   a. $ 3x + 5 = 14 $
+   b. $ 5x - 2 = 13 $
+   c. $ 10 + 6x = 5 $
+   d. $ 9 = -3x + 6 $
+"""
+A.4, """One car rental company (A) offers a car for \\$45 per day, while a second
+company (B) offers a similar car for \\$38 per day, with an initial fee of \\$60.
+Company A is a better deal for short rentals, while company B is a better deal
+for long rentals.  How many days (exactly) does it take before company B
+becomes a better choice? 
+"""
+A.4, """Write an equation that describes the line in the given graph.  Suppose the graph describes a company -- is the company profitable? 
+"""  
+A.5, """Suppose the profit of a given company can be modeled by: $ P(t)  = 1500t - 10000 $
+
+   a. Draw a careful graph of this system on graph paper
+   b. Explain the significance of the numbers $1500$ and $10000$
+"""
+A.6, """Suppose you have a bank account that pays $10\\%$ interest per year, and you start with $\\$100$.  Sketch a graph showing the amount in your account over the next 5 years.  Is a line a good model for this system?
+"""
+B.8, """Solve the following equations for x:
+
+   a. $x^2 - 5x - 14 = 0$
+   b. $2x^2 + 6x = 4$
+"""
+B.9, """2. Match the graphs on the board to the following equations (write down the equation and sketch the graph next to the matching equation).  Justify your answer.
+
+   a. $y = -3x^2 + 18x - 24$
+   b. $y = x^2 - x - 12$
+   c. $y = x^2 + 6x + 8$
+"""
+B.7, """The following table represents data for total cost per item produced for
+Company A and Company B.  One of them represents a linear model, the other a
+quadratic -- identify which is which, and explain how you determined the
+result.
+
+=====  ======   ======
+      A            B
+-------------   ------
+Items  Cost A   Cost B
+=====  ======   ====== 
+  0     20       20
+  1     25       23
+  2     30       28
+ 10     70      140
+=====  ======   ====== 
+"""  
+B.12, """Using the data from (1), determine the equation of the line for the one that
+is linear and the equation of the quadratic for the one that is quadratic.
+"""
+B.12, """Suppose the profit for a company is given by $P(x) = 50x - 0.2x^2 - 2000$,
+where P is the profit and x is the number of units produced.
+
+   a. Sketch the graph, showing the direction of the parabola and approximate location
+   b. At what value of production is the profit a maximum (or minimum)?
+"""
+B.10, """The following data represents the distance an object falls after being
+thrown downward from a very high height.  I propose that the equation $d(t) = 5
++ 4t + 5t^2$ models this data well.  Determine which parts of the equation are
+incorrect, and fix them. 
+
+==== ========
+Time Distance
+==== ========
+  0     0
+  1     8
+  2    26
+  3    54
+  4    92
+  5   140
+  6   198
+  7   266
+==== ========
+"""
+A.1, """Round 84,619 to the nearest hundreds place"""
+"""
+A.1, """Evaluate $20 - 3(6-4)^2 + 5$
+"""
+A.1, """Calculate: Be sure the final answer is in lowest terms.
+
+$ \\frac{3}{5} + \\frac{1}{2} $
+"""
+A.1, """Fill in the chart below: Simplify all fractions.
+
+   a. Convert $\\frac{3}{8}$ into a decimal
+   b. Convert $0.04$ into a percent
+   c. Convert $125\\%$ into a fraction
+"""
+A.1, """Simplify: $ 3 - 2x + 5 - 3(x-6) $
+"""
+A.2, """Solve:  $6 - 2x = 4x + 12$
+"""
+A.2, """The sum of three times a number and four is ten. Write the equation. Do not solve.
+"""
+A.2, """Solve the proportion:
+
+$ \\frac{4}{n} = \\frac{6}{10}$
+"""
+A.2, """Multiple choice.  $300$ is $20\\%$ of what?
+
+   a. 200
+   b. 6667
+   c. 1500
+   d. 60
+"""
+A.2, """What is $\\$60$ increased by $25\\%$?
+
+    a. $\\$75.00$
+    b. $\\$15.00$
+    c. $\\$45.00$
+    d. $\\$84.00$
+"""

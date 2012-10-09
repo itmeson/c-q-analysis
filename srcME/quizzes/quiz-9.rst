@@ -4,7 +4,6 @@ Quiz 9
 :date: 2012-10-02 
 :category: quizzes
 :tags: B.10, B.11, quadratic
-:status: draft
 
 
 1. The following data represents the distance an object falls after being

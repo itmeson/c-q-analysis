@@ -5,6 +5,7 @@ PELICANOPTS=None
 BASEDIR=$(PWD)
 INPUTDIR=$(BASEDIR)/src
 OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR2=$(BASEDIR)/output2
 CONFFILE=$(BASEDIR)/pelican.conf.py
 THEME=pelican-course-theme
 
@@ -24,13 +25,19 @@ help:
 	@echo '   ssh_upload                       upload the web site using SSH     '
 	@echo '                                                                      '
 
-all: html ssh_upload
+all: html html2 ssh_upload
 
 html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
+html2: clean $(OUTPUTDIR2)/index.html
+	@echo 'Done'
+
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -t $(THEME)
+
+$(OUTPUTDIR2)/%.html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR2) -s $(CONFFILE) -t $(THEME)
 
 clean:
 	rm -fr $(OUTPUTDIR)

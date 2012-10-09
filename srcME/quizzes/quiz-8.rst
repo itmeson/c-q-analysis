@@ -4,7 +4,6 @@ Quiz 8
 :date: 2012-09-27 
 :category: quizzes
 :tags: B.7, B.12, quadratic
-:status: draft
 
 
 1. The following table represents data for total cost per item produced for

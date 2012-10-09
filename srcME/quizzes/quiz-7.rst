@@ -12,7 +12,7 @@ Quiz 7
 
 2. Match the graphs on the board to the following equations (write down the equation and sketch the graph next to the matching equation).  Justify your answer.
 
-   a. $y = -3*x^2 + 18x - 24$
+   a. $y = -3x^2 + 18x - 24$
    b. $y = x^2 - x - 12$
    c. $y = x^2 + 6x + 8$
 

@@ -4,7 +4,6 @@ Quiz 10
 :date: 2012-10-04
 :category: quizzes
 :tags: C.13, C.16, C.17, matrix
-:status: draft
 :donow: no
 
 1. Write clear sentences explaining how you can tell:

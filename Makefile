@@ -3,15 +3,17 @@ PELICAN=pelican
 PELICANOPTS=None
 
 BASEDIR=$(PWD)
-INPUTDIR=$(BASEDIR)/src
-OUTPUTDIR=$(BASEDIR)/output
-OUTPUTDIR2=$(BASEDIR)/output2
+INPUTDIRME=$(BASEDIR)/srcME
+INPUTDIRTHEM = $(BASEDIR)/srcTHEM
+OUTPUTDIRME=$(BASEDIR)/outputME
+OUTPUTDIRTHEM=$(BASEDIR)/outputTHEM
 CONFFILE=$(BASEDIR)/pelican.conf.py
 THEME=pelican-course-theme
 
 
 SSH_HOST=web 
-SSH_TARGET_DIR=markbetnel.com/qa1/
+SSH_TARGET_DIRME=markbetnel.com/qa1ME/
+SSH_TARGET_DIRTHEM=markbetnel.com/qa1
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -25,36 +27,32 @@ help:
 	@echo '   ssh_upload                       upload the web site using SSH     '
 	@echo '                                                                      '
 
-all: html html2 ssh_upload
+all: htmlME htmlTHEM ssh_uploadME ssh_uploadTHEM
 
-html: clean $(OUTPUTDIR)/index.html
+htmlME: clean $(OUTPUTDIRME)/index.html
 	@echo 'Done'
 
-html2: clean $(OUTPUTDIR2)/index.html
+htmlTHEM: clean $(OUTPUTDIRTHEM)/index.html
 	@echo 'Done'
 
-$(OUTPUTDIR)/%.html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -t $(THEME)
+$(OUTPUTDIRME)/%.html:
+	$(PELICAN) $(INPUTDIRME) -o $(OUTPUTDIRME) -s $(CONFFILE) -t $(THEME)
 
-$(OUTPUTDIR2)/%.html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR2) -s $(CONFFILE) -t $(THEME)
+$(OUTPUTDIRTHEM)/%.html:
+	$(PELICAN) $(INPUTDIRTHEM) -o $(OUTPUTDIR2THEM) -s $(CONFFILE) -t $(THEME)
 
 clean:
-	rm -fr $(OUTPUTDIR)
-	mkdir $(OUTPUTDIR)
+	rm -fr $(OUTPUTDIRME)
+	mkdir $(OUTPUTDIRME)
+	rm -fr $(OUTUTDIRTHEM)
+	mkdir $(OUTPUTDIRTHEM)
 
-dropbox_upload: $(OUTPUTDIR)/index.html
-	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
-ssh_upload: $(OUTPUTDIR)/index.html
-	scp -r $(OUTPUTDIR)/* web:$(SSH_TARGET_DIR)
+ssh_uploadME: $(OUTPUTDIRME)/index.html
+	scp -r $(OUTPUTDIRME)/* web:$(SSH_TARGET_DIRME)
 
-ftp_upload: $(OUTPUTDIR)/index.html
-	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUT_DIR)/* $(FTP_TARGET_DIR) ; quit"
-
-github: $(OUTPUTDIR)/index.html
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+ssh_uploadTHEM: $(OUTPUTDIRTHEM)/index.html
+	scp -r $(OUTPUTDIRTHEM)/* web:$(SSH_TARGET_DIRTHEM)
 
 .PHONY: html help clean ftp_upload ssh_upload dropbox_upload github
     

@@ -3,17 +3,14 @@ PELICAN=pelican
 PELICANOPTS=None
 
 BASEDIR=$(PWD)
-INPUTDIRME=$(BASEDIR)/srcME
-INPUTDIRTHEM = $(BASEDIR)/srcTHEM
-OUTPUTDIRME=$(BASEDIR)/outputME
-OUTPUTDIRTHEM=$(BASEDIR)/outputTHEM
+INPUTDIR=$(BASEDIR)/src
+OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelican.conf.py
 THEME=pelican-course-theme
 
 
 SSH_HOST=web 
-SSH_TARGET_DIRME=markbetnel.com/qa1ME/
-SSH_TARGET_DIRTHEM=markbetnel.com/qa1
+SSH_TARGET_DIR=markbetnel.com/qa1
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -27,29 +24,27 @@ help:
 	@echo '   ssh_upload                       upload the web site using SSH     '
 	@echo '                                                                      '
 
-all: htmlME htmlTHEM ssh_uploadME ssh_uploadTHEM
+all: html ssh_upload ssh_upload
 
-htmlME: clean $(OUTPUTDIRME)/index.html
+html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
 htmlTHEM: clean $(OUTPUTDIRTHEM)/index.html
 	@echo 'Done'
 
-$(OUTPUTDIRME)/%.html:
-	$(PELICAN) $(INPUTDIRME) -o $(OUTPUTDIRME) -s $(CONFFILE) -t $(THEME)
+$(OUTPUTDIR)/%.html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -t $(THEME)
 
 $(OUTPUTDIRTHEM)/%.html:
 	$(PELICAN) $(INPUTDIRTHEM) -o $(OUTPUTDIR2THEM) -s $(CONFFILE) -t $(THEME)
 
 clean:
-	rm -fr $(OUTPUTDIRME)
-	mkdir $(OUTPUTDIRME)
-	rm -fr $(OUTUTDIRTHEM)
-	mkdir $(OUTPUTDIRTHEM)
+	rm -fr $(OUTPUTDIR)
+	mkdir $(OUTPUTDIR)
 
 
-ssh_uploadME: $(OUTPUTDIRME)/index.html
-	scp -r $(OUTPUTDIRME)/* web:$(SSH_TARGET_DIRME)
+ssh_upload: $(OUTPUTDIR)/index.html
+	scp -r $(OUTPUTDIR)/* web:$(SSH_TARGET_DIR)
 
 ssh_uploadTHEM: $(OUTPUTDIRTHEM)/index.html
 	scp -r $(OUTPUTDIRTHEM)/* web:$(SSH_TARGET_DIRTHEM)

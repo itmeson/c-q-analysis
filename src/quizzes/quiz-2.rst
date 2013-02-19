@@ -4,7 +4,7 @@ Quiz 2
 :date: 2012-09-06 
 :category: quizzes
 :tags: A.2, A.4
-
+:status: draft
 
 1. Solve for x:
 

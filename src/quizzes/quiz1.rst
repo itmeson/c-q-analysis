@@ -4,6 +4,8 @@ Quiz 1
 :date: 2012-09-04
 :category: quizzes
 :tags: algebra, review, real numbers, factoring, fractions, A.1, A.2
+:status: draft
+
 
 1. Round 84,619 to the nearest hundreds place:
 

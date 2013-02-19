@@ -3,7 +3,7 @@
 
 AUTHOR = u"Mark Betnel"
 SITENAME = u"Quantitative Analysis"
-SITEURL = 'http://markbetnel.com/qa1'
+SITEURL = 'http://markbetnel.com/qaS2013'
 
 TIMEZONE = 'America/New_York'
 
@@ -25,7 +25,7 @@ SOCIAL = (
 	 ('QuizzesFeed', SITEURL + '/feeds/quizzes.atom.xml')
 	 )
 
-DEFAULT_PAGINATION = 7
+DEFAULT_PAGINATION = 20
 DISPLAY_PAGES_ON_MENU = False
 
     

@@ -10,7 +10,7 @@ THEME=pelican-course-theme
 
 
 SSH_HOST=web 
-SSH_TARGET_DIR=markbetnel.com/qa1
+SSH_TARGET_DIR=markbetnel.com/qaS2013
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -24,19 +24,17 @@ help:
 	@echo '   ssh_upload                       upload the web site using SSH     '
 	@echo '                                                                      '
 
-all: html ssh_upload ssh_upload
+all: html ssh_upload git 
 
 html: clean $(OUTPUTDIR)/index.html
-	@echo 'Done'
-
-htmlTHEM: clean $(OUTPUTDIRTHEM)/index.html
 	@echo 'Done'
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -t $(THEME)
 
-$(OUTPUTDIRTHEM)/%.html:
-	$(PELICAN) $(INPUTDIRTHEM) -o $(OUTPUTDIR2THEM) -s $(CONFFILE) -t $(THEME)
+git: 
+	git status
+	@echo 'COMMIT CHANGES TO THE REPO!!!!!'
 
 clean:
 	rm -fr $(OUTPUTDIR)
@@ -46,8 +44,6 @@ clean:
 ssh_upload: $(OUTPUTDIR)/index.html
 	scp -r $(OUTPUTDIR)/* web:$(SSH_TARGET_DIR)
 
-ssh_uploadTHEM: $(OUTPUTDIRTHEM)/index.html
-	scp -r $(OUTPUTDIRTHEM)/* web:$(SSH_TARGET_DIRTHEM)
 
 .PHONY: html help clean ftp_upload ssh_upload dropbox_upload github
     

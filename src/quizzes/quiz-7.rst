@@ -4,6 +4,7 @@ Quiz 7
 :date: 2012-09-20 
 :category: quizzes
 :tags: B.8, B.9
+:status: draft
 
 1. Solve the following equations for x:
 

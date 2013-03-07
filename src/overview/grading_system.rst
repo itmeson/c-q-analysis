@@ -11,8 +11,7 @@ performance in these categories:
 * 10%	Final Exam
 * 10%	Homework_
 * 10%	Quizzes_	
-* 10% 	Project	
-* 10%	Participation
+* 20%	Participation
 * 50%	Standards_ 
 
 The final exam will be comprehensive.
@@ -29,10 +28,7 @@ page paper that will be due near the end of the term.  Options for your project
 topic will be discussed in the third week of the course.
 
 Your participation grade will include your contributions to the class and to
-your groups during class time.  You will prepare a short assignment at the end
-of the term describing your specific contributions to the class and your group,
-and justifying a letter grade that you will propose.  (You will suggest a grade
-in the range A-F, and explain why it is the grade you deserve).
+your groups during class time.  
 
 The largest portion of your grade will come from my assessment of your mastery
 of specific skills and concepts called "Standards"  -- a long list of these
@@ -46,13 +42,12 @@ standards for which you did not earn a 4.  The procedure for taking a new
 assessment is to schedule an appointment during office hours or during class
 work time within one week, during which you will convince me that you have
 improved your understanding.  I will then create a new assessment of the same
-skills, and will keep your *highest* score on that standard over the course of
-the term. 
+skills. 
 
-Your scores for the standards will be kept in a separate gradebook program to
-which you will have access, called ActiveGrade.  It will be your responsibility
-to ensure/check the accuracy of all scores entered in ActiveGrade and on
-Ulearn.
+
+Your scores for the standards will be emailed to you on a weekly basis.  It
+will be your responsibility to ensure/check the accuracy of all scores entered
+in ActiveGrade and on Ulearn.
 
 .. _Standards: ../standards.html
 .. _Homework: ../category/homework.html

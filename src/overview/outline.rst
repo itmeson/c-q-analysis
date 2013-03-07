@@ -1,7 +1,7 @@
 Course Outline
 ################
 
-:date: 2012-07-23
+:date: 2013-03-01
 :summary: Course outline and boilerplate
 :category: overview
 :tags: overview, standards, grading

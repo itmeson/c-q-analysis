@@ -1,6 +1,6 @@
 Standards
 #########
-:date: 2012-07-23
+:date: 2013-03-01
 :summary: List of content standards for Quantitative Analysis
 :tags: standards
 :category: overview

@@ -4,6 +4,7 @@ Lesson 4
 :date: 2012-09-13
 :summary: Limitations of linear models.  Why do we like them so much?
 :tags: algebra, linear, quadratic, models, A.6, B.7
+:status: drafts
 
 
 1. Return HW and Quiz 3. Review improvement procedure.

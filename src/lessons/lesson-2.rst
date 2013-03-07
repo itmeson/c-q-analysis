@@ -4,6 +4,8 @@ Lesson 2
 :date: 2012-09-06
 :summary: 
 :tags: algebra, linear models, graphing 
+:status: drafts
+
 
 1. Collect homework, check-in on difficulty and time
 

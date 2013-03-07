@@ -4,7 +4,7 @@ Lesson 5
 :date: 2012-09-18
 :summary: What are quadratic models all about? 
 :tags: quadratic, B.7, B.8, B.9 
-
+:status: drafts
 
 1. Return HW and Quiz 4. Review improvement procedure.
 

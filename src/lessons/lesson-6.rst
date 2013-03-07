@@ -5,7 +5,7 @@ Lesson 6
 :summary: Is it a quadratic?  Or linear?
 :category: lessons
 :tags: quadratic, linear, models, B.7, B.8, B.9, B.10, B.11, B.12 
-
+:status: drafts
 
 
 ========

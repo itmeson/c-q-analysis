@@ -1,7 +1,7 @@
 Lesson 1
 ########
 
-:date: 2012-09-04
+:date: 2013-03-07
 :summary: Introduction to the course, algebra review, problem solving
 :tags: algebra, problem solving
 

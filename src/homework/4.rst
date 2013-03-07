@@ -4,6 +4,7 @@ Homework 4
 :date: 2012-09-18 
 :summary: Practicing with quadratic models
 :tags: B.8, B.9, B.12
+:status: drafts
 
 1. From the book
 

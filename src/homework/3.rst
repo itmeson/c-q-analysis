@@ -4,6 +4,7 @@ Homework 3
 :date: 2012-09-13
 :summary: HW 3 on linear equations and models, graphing, and limitations
 :tags: A.1, A.2, A.3, A.4, A.5, A.6
+:status: drafts
 
 1. From the book
 

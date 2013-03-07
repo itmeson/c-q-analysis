@@ -10,7 +10,7 @@ THEME=pelican-course-theme
 
 
 SSH_HOST=web 
-SSH_TARGET_DIR=markbetnel.com/qaS2013
+SSH_TARGET_DIR=markbetnel.com/qa1
 
 DROPBOX_DIR=~/Dropbox/Public/
 

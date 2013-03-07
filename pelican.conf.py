@@ -3,7 +3,7 @@
 
 AUTHOR = u"Mark Betnel"
 SITENAME = u"Quantitative Analysis"
-SITEURL = 'http://markbetnel.com/qaS2013'
+SITEURL = 'http://markbetnel.com/qa1'
 
 TIMEZONE = 'America/New_York'
 

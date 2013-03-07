@@ -4,6 +4,8 @@ Homework 10
 :date: 2012-10-04
 :summary: 
 :tags: matrices
+:status: drafts
+
 
 1. From the book, section 3.2:
 

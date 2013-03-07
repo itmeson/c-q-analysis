@@ -4,6 +4,7 @@ Homework 5
 :date: 2012-09-20
 :summary: More practice with quadratics and applications
 :tags: B.8, B.9, B.10, B.11, B.12
+:status: drafts
 
 1. From the book
 

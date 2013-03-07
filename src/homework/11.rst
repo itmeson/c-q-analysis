@@ -4,6 +4,7 @@ Homework 11
 :date: 2012-10-11
 :summary: Gauss-Jordan matrix reduction
 :tags: matrix
+:status: drafts
 
 1. From the book, Read.Section 3.3 and 3.4:
 

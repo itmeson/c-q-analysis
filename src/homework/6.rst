@@ -4,6 +4,8 @@ Homework 6
 :date: 2012-09-25
 :summary: 
 :tags: B.7, B.8, B.9, B.10, B.11, B.12
+:status: drafts
+
 
 1. From the book: 
 

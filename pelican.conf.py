@@ -12,6 +12,7 @@ DEFAULT_LANG='en'
 # Blogroll
 LINKS =  (
     ('Wolfram Alpha', 'http://www.wolframalpha.com/'),
+    ('DESMOS.cm', 'http://desmos.com/'),
     ('Khan Academy', 'http://www.khanacademy.org'),
     ('Math Fun Facts', 'http://www.math.hmc.edu/funfacts/'),
     ('Google Finance', 'http://google.com/finance'),

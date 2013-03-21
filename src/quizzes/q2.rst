@@ -1,0 +1,24 @@
+Quiz 2 
+######
+
+:date: 2013-03-31 
+:category: quizzes
+:tags: A.1, A.2, A.3, A.4
+:status: draft
+
+1. Solve for x:
+
+   a. $ 3x + 5 = 14 $
+   b. $ 5x - 2 = 13 $
+   c. $ 10 + 6x = 5 $
+   d. $ 9 = -3x + 6 $
+
+2. A runner starts running at noon exactly, going 10 miles per hour.  At 12:30 pm, a bicycle starts chasing the runner, going 12 miles per  hour.  
+
+   a. Make a careful graph showing the positions of both the runner and the bicycle until 6pm.
+
+   b. Find the equations describing the position of the bicycle and the runner at any time.
+
+   c. Determine the exact time at which the bicycle will catch the runner, and how many miles both will have travelled. 
+
+ 

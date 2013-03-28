@@ -1,0 +1,24 @@
+Quiz 3 
+######
+
+:date: 2013-03-28
+:category: quizzes
+:tags: B.8, B.9
+:status: draft
+
+1. The following two equations describe the height of a missile above (or below) the surface of the ocean, when it is launched from a submarine: 
+
+  a. $ y = -t^2 + 12t - 20 $
+
+  b. $ y = -5t^2 + 30t - 20$
+  
+
+2. After how many seconds will each missile break through the surface of the water?
+
+3. After how many seconds will each missile crash back into the water?
+
+4. For how many seconds is each missile above the surface?
+
+5. Hint:  $t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$
+ 
+ 

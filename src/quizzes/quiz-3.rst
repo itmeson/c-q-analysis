@@ -1,5 +1,5 @@
-Quiz 3 
-######
+Quiz 30 
+#######
 
 :date: 2012-09-18 
 :category: quizzes
